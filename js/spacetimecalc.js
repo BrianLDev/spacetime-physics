@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', hideResults);
 // Listen for submit event (note that submit "bubbles up" to parent loan-form element)
 document.getElementById('loan-form').addEventListener('submit', beginResults);
 
-
-
 // Hide results
 function hideResults() {
   document.getElementById('results').hidden = true;
