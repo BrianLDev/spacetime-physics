@@ -24,7 +24,12 @@ function beginResults(e) {
 // Calculate Results
 function calculateResults() {
   // UI Variables
-  // TODO: ADD THESE
+  const time1 = document.getElementById('time1');
+  const dist1 = document.getElementById('dist1');
+  const interval1 = document.getElementById('interval1');
+  const time2 = document.getElementById('time2');
+  const dist2 = document.getElementById('dist2');
+  const interval2 = document.getElementById('interval2');
 
   hideResults();
 
