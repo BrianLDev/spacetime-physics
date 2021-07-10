@@ -1,6 +1,8 @@
 # Spacetime Physics - Companion Site
 
-This is a companion site to the excellent book on Special Relativity: Spacetime Physics.  it's intenet is to add interactive tools and visuals to aid understanding the nuances of Special Relativity and spacetime.
+This is a reader-made companion site to the excellent book on Special Relativity: Spacetime Physics.  It's intenet is to add interactive tools and visuals to aid understanding the nuances of Special Relativity and spacetime.
+
+*Note that this site is not affiliated with the authors, it's just something I put together for fun.*
 
 ```
 Spacetime Physics, Second Edition
