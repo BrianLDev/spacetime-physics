@@ -24,16 +24,30 @@ function beginResults(e) {
 // Calculate Results
 function calculateResults() {
   // UI Variables
-  const time1 = document.getElementById('time1');
-  const dist1 = document.getElementById('dist1');
-  const interval1 = document.getElementById('interval1');
-  const time2 = document.getElementById('time2');
-  const dist2 = document.getElementById('dist2');
-  const interval2 = document.getElementById('interval2');
+  const UItime1 = document.getElementById('time1');
+  const UIdist1 = document.getElementById('dist1');
+  const UIinterval1 = document.getElementById('interval1');
+  const UItime2 = document.getElementById('time2');
+  const UIdist2 = document.getElementById('dist2');
+  const UIinterval2 = document.getElementById('interval2');
 
   hideResults();
 
-  // TODO: CALCULATE RESULTS
+  // TODO: ALLOW CALCULATION FOR OTHER VARIABLES BESIDES SPACETIME INTERVAL USING SWITCH BUTTONS
+
+  // Assign input to variables
+  const spdLightMS = 299792458;   // speed of light in meters/second
+  const time1 = parseFloat(UItime1.textContent);
+  const dist1 = parseFloat(UIdist1.textContent);
+  const interval1 = parseFloat(UIinterval1.textContent);
+  const time2 = parseFloat(UItime2.textContent);
+  const dist2 = parseFloat(UIdist2.textContent);
+  const interval2 = parseFloat(UIinterval2.textContent);
+
+  // Validate input
+  if (isFinite(time1) && isFinite(dist1) && isFinite(time2) && isFinite(dist2)) {
+
+  }
 
   // unhide results UI
   document.getElementById('results').hidden = false;
