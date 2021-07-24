@@ -7,40 +7,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Spacetime Interval Calculator</title>
   </head>
-  <body class="bg-dark">
+  <body class="bg-dark text-light px-5">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Spacetime Physics Companion</a>
+      <a class="navbar-brand" href="../index.html">Spacetime Physics Companion</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Chapter List
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="/ch1/ch1.html">Chapter 1: Spacetime: Overview</a></li>
-              <li><a class="dropdown-item" href="#">Chapter 2: Floating Free</a></li>
-              <li><a class="dropdown-item" href="#">Chapter 3: Same Laws For All</a></li>
-              <li><a class="dropdown-item" href="#">Special Topic: Lorentz Transformations (Pending)</a></li>
-              <li><a class="dropdown-item" href="#">Chapter 4: Trip to Canopus (Pending)</a></li>
-              <li><a class="dropdown-item" href="#">Chapter 5: Trekking Through Spacetime (Pending)</a></li>
-              <li><a class="dropdown-item" href="#">Chapter 6: Regions of Spacetime (Pending)</a></li>
-              <li><a class="dropdown-item" href="#">Chapter 7: Momenergy (Pending)</a></li>
-              <li><a class="dropdown-item" href="#">Chapter 8: Collide. Create. Annihilate. (Pending)</a></li>
-              <li><a class="dropdown-item" href="#">Chapter 9: Gravity: Curved Spacetime In Action (Pending)</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+      <span>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropstart">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Chapter List
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item active" href="ch1.html">Chapter 1: Spacetime: Overview</a></li>
+                <li><a class="dropdown-item" href="/ch2/ch2.html">Chapter 2: Floating Free</a></li>
+                <li><a class="dropdown-item" href="/ch3/ch3.html">Chapter 3: Same Laws For All</a></li>
+                <li><a class="dropdown-item" href="#">Special Topic: Lorentz Transformations (Pending)</a></li>
+                <li><a class="dropdown-item" href="#">Chapter 4: Trip to Canopus (Pending)</a></li>
+                <li><a class="dropdown-item" href="#">Chapter 5: Trekking Through Spacetime (Pending)</a></li>
+                <li><a class="dropdown-item" href="#">Chapter 6: Regions of Spacetime (Pending)</a></li>
+                <li><a class="dropdown-item" href="#">Chapter 7: Momenergy (Pending)</a></li>
+                <li><a class="dropdown-item" href="#">Chapter 8: Collide. Create. Annihilate. (Pending)</a></li>
+                <li><a class="dropdown-item" href="#">Chapter 9: Gravity: Curved Spacetime In Action (Pending)</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </span>
     </div>
+  </nav>
+  <!-- Breadcrumb -->
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+      <li class="breadcrumb-item"><a href="ch1.html">Ch 1</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Spacetime Interval Calc</li>
+    </ol>
   </nav>
   <!-- Spacetime Calculator -->
     <div class="container">
-      <div class="row">
+      <div class="row text-dark">
         <div class="col-md-9 mx-auto">
           <div class="card card-body text-center mt-5">
             <h1 class="heading display-5 pb-3">Spacetime Interval Calculator</h1>
