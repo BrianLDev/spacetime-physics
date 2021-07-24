@@ -8,13 +8,44 @@
     <title>Spacetime Interval Calculator</title>
   </head>
   <body class="bg-dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Spacetime Physics Companion</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Chapter List
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/ch1/ch1.html">Chapter 1: Spacetime: Overview</a></li>
+              <li><a class="dropdown-item" href="#">Chapter 2: Floating Free</a></li>
+              <li><a class="dropdown-item" href="#">Chapter 3: Same Laws For All</a></li>
+              <li><a class="dropdown-item" href="#">Special Topic: Lorentz Transformations (Pending)</a></li>
+              <li><a class="dropdown-item" href="#">Chapter 4: Trip to Canopus (Pending)</a></li>
+              <li><a class="dropdown-item" href="#">Chapter 5: Trekking Through Spacetime (Pending)</a></li>
+              <li><a class="dropdown-item" href="#">Chapter 6: Regions of Spacetime (Pending)</a></li>
+              <li><a class="dropdown-item" href="#">Chapter 7: Momenergy (Pending)</a></li>
+              <li><a class="dropdown-item" href="#">Chapter 8: Collide. Create. Annihilate. (Pending)</a></li>
+              <li><a class="dropdown-item" href="#">Chapter 9: Gravity: Curved Spacetime In Action (Pending)</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Spacetime Calculator -->
     <div class="container">
       <div class="row">
         <div class="col-md-9 mx-auto">
           <div class="card card-body text-center mt-5">
             <h1 class="heading display-5 pb-3">Spacetime Interval Calculator</h1>
             <p><strong>(<a href="https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval">spacetime interval</a>)<sup>2</sup> = (difference in time)<sup>2</sup> - (difference in space)<sup>2</sup></strong></p>
-            <p><strong>s<sup>2</sup> = (c*Δt)<sup>2</sup> - Δx<sup>2</sup> - Δy<sup>2</sup> - Δz<sup>2</sup></strong></p>
+            <p><strong>Δs<sup>2</sup> = (c*Δt)<sup>2</sup> - Δx<sup>2</sup> - Δy<sup>2</sup> - Δz<sup>2</sup></strong></p>
             <form id="input-form">
               <div class="row align-items-center mb-3">
                 <div class="col-6">
